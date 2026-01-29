@@ -1,0 +1,125 @@
+body {
+    
+    background-color: #1B244A;
+    text-align: center;
+
+   
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+
+h3{
+   
+width: 149px;
+height: 36px;
+top: 68px;
+left: 85px;
+
+opacity: 1;
+font-family: Verdana;
+font-weight: 700;
+font-style: Bold;
+font-size: 40px;
+margin-left: auto;
+margin-right: auto;
+color: #EEEEEE;
+text-align: center;
+
+    
+}
+
+.score{
+
+width: 155px;
+height: 120px;
+top: 125px;
+left: 100px;
+
+opacity: 1;
+    
+font-family: Cursed Timer ULiL;
+font-weight: 400;
+font-style: Regular;
+font-size: 90px;
+
+line-height: 126.67px;
+letter-spacing: 0%;
+text-align: center;
+color: #F94F6D;
+margin: 16px;
+padding: 16px 8px;
+display: block;
+
+
+
+}
+
+.background{
+    
+width: 155px;
+height: 120px;
+top: 125px;
+left: 82px;
+opacity: 1;
+border-radius: 5px;
+background: #080001;
+padding: 16px 8px;
+margin: 16px;
+margin-left: auto;
+margin-right: auto;
+align-items: center;
+    
+}
+
+
+
+
+
+
+.btn{
+    
+width: 55;
+height: 45;
+top: 271px;
+left: 82px;
+angle: 0 deg;
+
+border-radius: 5px;
+color: #9AABD8;
+border: 2px solid #9AABD8;
+background-color: #1B244A;
+font-family: Cursed Timer ULiL;
+padding: 16px 4px;
+margin: 5px
+
+}
+
+.Newgame{
+    
+width: 155;
+height: 45;
+top: 271px;
+left: 82px;
+angle: 0 deg;
+opacity: 1;
+border-radius: 5px;
+color: #9AABD8;
+border: 2px solid #9AABD8;
+background-color: #1B244A;
+
+padding: 16px 16px;
+margin: 5px;
+box-shadow: 2px 2px 4px #080001;
+    
+    
+    
+    
+}
+
+
