@@ -1,7 +1,9 @@
 let homeEl = document.getElementById("home-el")
 let guestEL = document.getElementById("guest-el")
+let winningteamEl = document.getElementById("winningteam-el")
 homepoint = 0
 guestpoint = 0 
+
 
 
 function homeonepoint() {
@@ -52,5 +54,22 @@ function newgame(){
     homepoint = 0
     guestpoint = 0
     
+}
+
+function winning(){
+
+if (homepoint>guestpoint){
+
+    winningteamEl.textContent = "HOME"
+}   else if (homepoint<guestpoint){
+
+    winningteamEl.textContent = "Away"
+}else{
+
+    winningteamEl.textContent = "DRAW"
+}
+
+
+
 }
 
