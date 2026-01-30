@@ -49,6 +49,13 @@ function guestthreepoints() {
 
 function newgame(){
     
+    document.getElementById("home-el").classList.remove("highlightwin")
+     document.getElementById("guest-el").classList.remove("highlightwin")
+         document.getElementById("home-el").classList.remove("highlightlose")
+     document.getElementById("guest-el").classList.remove("highlightlose")
+         document.getElementById("home-el").classList.remove("highlightdraw")
+     document.getElementById("guest-el").classList.remove("highlightdraw")
+
     guestEL.textContent = 0 
     homeEl.textContent = 0 
     homepoint = 0
@@ -86,3 +93,4 @@ if (homepoint>guestpoint){
 
 }
 
+window.onload(winning())
