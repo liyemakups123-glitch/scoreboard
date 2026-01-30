@@ -58,15 +58,28 @@ function newgame(){
 
 function winning(){
 
+    document.getElementById("home-el").classList.remove("highlightwin")
+     document.getElementById("guest-el").classList.remove("highlightwin")
+         document.getElementById("home-el").classList.remove("highlightlose")
+     document.getElementById("guest-el").classList.remove("highlightlose")
+         document.getElementById("home-el").classList.remove("highlightdraw")
+     document.getElementById("guest-el").classList.remove("highlightdraw")
+
 if (homepoint>guestpoint){
 
     winningteamEl.textContent = "HOME"
+    document.getElementById("home-el").classList.add("highlightwin")
+     document.getElementById("guest-el").classList.add("highlightlose")
 }   else if (homepoint<guestpoint){
 
     winningteamEl.textContent = "Away"
+     document.getElementById("home-el").classList.add("highlightlose")
+     document.getElementById("guest-el").classList.add("highlightwin")
 }else{
 
     winningteamEl.textContent = "DRAW"
+    document.getElementById("home-el").classList.add("highlightdraw")
+     document.getElementById("guest-el").classList.add("highlightdraw")
 }
 
 
