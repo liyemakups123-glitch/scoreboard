@@ -9,42 +9,42 @@ guestpoint = 0
 function homeonepoint() {
   homepoint = homepoint + 1  
     homeEl.textContent = homepoint
-    
+    winning()
 }
 
 function hometwopoints() {
      homepoint = homepoint + 2  
     homeEl.textContent = homepoint 
     
-    
+    winning()
 }
 
 function homethreepoints() {
       homepoint = homepoint + 3 
     homeEl.textContent = homepoint
     
-    
+    winning()
 }
 
 function guestonepoint() {
   guestpoint = guestpoint + 1  
     guestEL.textContent = guestpoint  
     
-    
+    winning()
 }
 
 function guesttwopoints() {
      guestpoint = guestpoint + 2  
     guestEL.textContent = guestpoint
     
-    
+    winning()
 }
 
 function guestthreepoints() {
      guestpoint = guestpoint + 3  
     guestEL.textContent = guestpoint
     
-    
+    winning()
 }
 
 function newgame(){
@@ -58,6 +58,7 @@ function newgame(){
 
     guestEL.textContent = 0 
     homeEl.textContent = 0 
+    winningteamEl.textContent = " "
     homepoint = 0
     guestpoint = 0
     
